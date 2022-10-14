@@ -160,8 +160,8 @@ body {
   font-family: "Raleway";
 }
 
-/* Header */
-#header-nav {
+/* Start Navigation */
+#navigation {
   z-index: 10;
   display: flex;
   flex-direction: row;
@@ -172,16 +172,21 @@ body {
   top: 0;
 }
 
-#header-nav ul {
+#navigation .icon {
+  color: yellow;
+}
+
+#navigation ul {
   display: flex;
 }
 
-#header-nav ul li {
+#navigation ul li {
   list-style-type: none;
   margin-right: 30px;
 }
+/* End Header */
 
-/* Welcome */
+/* Start Welcome */
 #welcome {
   position: relative;
   background-image: url("../img/bg.jpg");
@@ -190,7 +195,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.welcome-cover {
+#welcome .cover {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -201,19 +206,20 @@ body {
   pointer-events: none;
 }
 
-.welcome-body {
+#welcome .body {
   display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: column;
   height: 90vh;
 }
+/* End Welcome */
 
-/* Introduction */
+/* Start Introduction */
+/* End Introduction */
 
-/* Services */
-
-.services-detaills-cardbox {
+/* Start Services */
+#services .detaills .cardbox {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -222,26 +228,30 @@ body {
   gap: 1rem;
 }
 
-.cardbox-card {
+#services .detaills .cardbox .card {
   width: 270px;
   height: 350px;
   background-color: aqua;
 }
+/* End Services */
 
-/* Portfolio */
+/* Start Portfolio */
 #portfolio {
   background-color: yellow;
   height: 10vh;
 }
+/* End Portfolio */
 
-/* Team */
+/* Start Team */
 #team {
   background-color: aqua;
   height: 10vh;
 }
+/* End Team */
 
-/* Footer */
+/* Start Footer */
 footer {
   background-color: black;
   height: 45vh;
 }
+/* End Footer */
