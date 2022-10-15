@@ -232,9 +232,6 @@ body {
   margin-right: 30px;
   z-index: 10;
   align-self: center;
-}
-
-#welcome .body .headline h1 {
   color: white;
   letter-spacing: 0.4rem;
   font-size: 2rem;
@@ -248,14 +245,11 @@ body {
   margin-right: 40px;
   align-self: center;
   text-align: center;
-}
-
-#welcome .body .text p {
   color: white;
   letter-spacing: 0.2rem;
 }
 
-#welcome .body .btn-outline-primary {
+#welcome .body .btn {
   margin-top: 50px;
   z-index: 10;
   align-self: center;
@@ -273,7 +267,6 @@ body {
 
 /* Start Introduction */
 #introduction {
-  height: 67.5vh;
   width: 100vw;
   display: flex;
   justify-content: end;
@@ -282,6 +275,7 @@ body {
 }
 
 #introduction .icon {
+  margin-top: 15vh;
   margin-bottom: 5vh;
 }
 
@@ -295,7 +289,41 @@ body {
 /* End Introduction */
 
 /* Start Services */
+#services {
+  background-color: #f4f4f4;
+}
+
+#services .detaills {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 25vh;
+}
+
+#services .detaills h1 {
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  letter-spacing: 0.4rem;
+  font-size: x-large;
+  font-weight: light;
+}
+
+#services .detaills h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+#services .detaills p {
+  padding: 10px 30px;
+}
+
+#services .detaills .text {
+  max-width: 750px;
+}
+
 #services .detaills .cardbox {
+  margin-top: 5vh;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -307,14 +335,166 @@ body {
 #services .detaills .cardbox .card {
   width: 270px;
   height: 350px;
-  background-color: aqua;
+  background-color: white;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#services .detaills .cardbox .card .bi {
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+#services .detaills .cardbox .card p {
+  margin-top: 25px;
+  font-size: 0.8rem;
+}
+
+#services .summary {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#services .summary .card {
+  width: 270px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+}
+
+#services .summary .card h3 {
+  margin-top: 8px;
+  font-size: 1.2rem;
+}
+
+#services .summary .card p {
+  text-transform: uppercase;
+  padding-bottom: 8;
+  letter-spacing: 0.1rem;
 }
 /* End Services */
 
 /* Start Portfolio */
-#portfolio {
-  background-color: yellow;
-  height: 10vh;
+#portfolio .detaills {
+  text-align: center;
+}
+
+#portfolio .detaills h1 {
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  letter-spacing: 0.4rem;
+  font-size: x-large;
+  font-weight: light;
+}
+
+#portfolio .detaills p {
+  padding: 10px 30px;
+}
+
+#portfolio .detaills .categories {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#portfolio .detaills .categories .card {
+  width: 470px;
+  height: 60px;
+  border-radius: 0;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+#portfolio .detaills .projects {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#portfolio .detaills .projects .card {
+  width: 310px;
+  height: 350px;
+  border: none;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+
+#portfolio .detaills .projects .a {
+  background-image: url("../img/portfolio-0.jpg");
+}
+
+#portfolio .detaills .projects .b {
+  background-image: url("../img/portfolio-1.jpg");
+}
+
+#portfolio .detaills .projects .c {
+  background-image: url("../img/portfolio-2.jpg");
+}
+
+#portfolio .detaills .projects .d {
+  background-image: url("../img/portfolio-3.jpg");
+}
+
+#portfolio .detaills .projects .e {
+  background-image: url("../img/portfolio-4.jpg");
+}
+
+#portfolio .detaills .projects .f {
+  background-image: url("../img/portfolio-5.jpg");
+}
+
+#portfolio .detaills .btn {
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  border-color: #ffe600;
+  background-color: #ffe600;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+  letter-spacing: 0.4rem;
+  height: 45px;
+}
+
+#portfolio .video {
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 45vh;
+}
+
+#portfolio .video .btn {
+  align-self: center;
+  border-color: #ffe600;
+  text-transform: uppercase;
+  color: #ffe600;
+  font-weight: bold;
+  border-radius: 0;
+  height: 75px;
+  letter-spacing: 0.4rem;
 }
 /* End Portfolio */
 
