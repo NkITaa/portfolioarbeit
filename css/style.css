@@ -537,7 +537,8 @@ body {
 
 /* Start Team */
 #team {
-  padding-top: 40px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
   text-align: center;
   display: flex;
   align-items: center;
@@ -559,6 +560,7 @@ body {
 }
 
 #team .employees {
+  margin-top: 6vh;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -579,6 +581,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0;
+  position: relative;
 }
 
 #team .employees .card .a {
@@ -598,17 +601,136 @@ body {
 }
 
 #team .employees .card .image .name {
+  background-color: #ffe600;
+  opacity: 80%;
+  width: 100%;
   height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #team .employees .card .description {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 170px;
+}
+
+#team .employees .card .description p {
+  font-size: 0.85rem;
+}
+
+#team .ceo {
+  margin-top: 10vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#team .ceo .column {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 1175px) {
+  #team .ceo .column {
+    flex-direction: column-reverse;
+  }
+}
+
+#team .ceo .column .a {
+  background-color: black;
+  padding: 60px 70px;
+}
+
+#team .ceo .column .a p {
+  color: white;
+  text-align: start;
+  font-size: 0.9rem;
+}
+
+#team .ceo .column .b {
+  background-image: url("../img/team-0.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#team .ceo .column .card {
+  border: none;
+  border-radius: 0;
+  height: 375px;
+  width: 570px;
+}
+
+#team .ceo .column .quote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#team .ceo .column .quote .credit {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#team .ceo .column .quote .text-a p {
+  text-align: start;
+}
+
+#team .ceo .column .quote .text-b p {
+  text-align: end;
 }
 /* End Team */
 
 /* Start Footer */
 footer {
+  color: white;
   background-color: black;
-  height: 45vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+footer .info {
+  height: 270px;
+  width: 370px;
+}
+
+footer .row {
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+footer .row .column {
+  width: 150px;
+}
+
+footer .row .column ul:before {
+  content: attr(aria-label);
+  font-size: 120%;
+  font-weight: bold;
+}
+
+footer .row .column ul li {
+  list-style-type: none;
 }
 /* End Footer */
