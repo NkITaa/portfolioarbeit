@@ -220,7 +220,8 @@ header ul li a:hover {
   position: relative;
   background-image: url("../img/bg.jpg");
   background-size: cover;
-  height: 90vh;
+  padding-top: min(150px, 6vh);
+  padding-bottom: min(200px, 10vh);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -242,6 +243,7 @@ header ul li a:hover {
   justify-content: center;
   flex-direction: column;
   height: 90vh;
+  max-height: 800px;
 }
 
 #welcome .body .headline {
@@ -308,7 +310,7 @@ header ul li a:hover {
 
 /* Start Services */
 #services {
-  padding-top: 5vh;
+  padding-top: min(70px, 3vh);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -339,14 +341,14 @@ header ul li a:hover {
 }
 
 #services .cardbox {
-  margin-top: 5vh;
+  margin-top: min(80px, 5vh);
   display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1.3rem;
-  padding-bottom: 25vh;
+  margin-bottom: min(200px, 20vh);
 }
 
 #services .cardbox .card {
@@ -409,7 +411,7 @@ header ul li a:hover {
 /* Start Portfolio */
 #portfolio {
   text-align: center;
-  padding-top: 40px;
+  margin-top: min(70px, 3vh);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -596,7 +598,8 @@ header ul li a:hover {
   display: flex;
   align-content: center;
   justify-content: center;
-  height: 45vh;
+  padding-top: min(150px, 6vh);
+  padding-bottom: min(150px, 6vh);
 }
 
 #portfolio .video .btn {
@@ -617,8 +620,8 @@ header ul li a:hover {
 
 /* Start Team */
 #team {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: min(70px, 3vh);
+  margin-bottom: min(50px, 3vh);
   text-align: center;
   display: flex;
   align-items: center;
@@ -806,8 +809,8 @@ header ul li a:hover {
 
 /* Start Footer */
 footer {
-  padding-bottom: 5vh;
-  padding-top: 10vh;
+  padding-bottom: min(45px, 5vh);
+  padding-top: min(80px, 5vh);
   color: white;
   background-color: black;
   display: flex;
@@ -859,7 +862,8 @@ footer .info .btn {
   margin-top: 30px;
   margin-bottom: 30px;
   height: 50px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
   width: 100%;
   background-color: #ffe600;
   color: black;
