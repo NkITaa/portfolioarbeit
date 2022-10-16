@@ -5,7 +5,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 100;
-  src: url("../fonts/raleway-v28-latin-100.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-100.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-100.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-100.woff2") format("woff2"),
@@ -14,7 +15,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-100.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-100.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-200 - latin */
@@ -22,7 +24,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 200;
-  src: url("../fonts/raleway-v28-latin-200.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-200.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-200.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-200.woff2") format("woff2"),
@@ -31,7 +34,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-200.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-200.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-300 - latin */
@@ -39,7 +43,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/raleway-v28-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-300.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-300.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-300.woff2") format("woff2"),
@@ -48,7 +53,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-300.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-300.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-regular - latin */
@@ -56,7 +62,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/raleway-v28-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-regular.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-regular.eot?#iefix")
       format("embedded-opentype"),
@@ -67,7 +74,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-regular.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("../fonts/raleway-v28-latin-regular.svg#Raleway") format("svg"); /* Legacy iOS */
+      url("../fonts/raleway-v28-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-500 - latin */
@@ -75,7 +83,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/raleway-v28-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-500.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-500.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-500.woff2") format("woff2"),
@@ -84,7 +93,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-500.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-500.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-600 - latin */
@@ -92,7 +102,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/raleway-v28-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-600.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-600.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-600.woff2") format("woff2"),
@@ -101,7 +112,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-600.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-600.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-700 - latin */
@@ -109,7 +121,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/raleway-v28-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-700.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-700.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-700.woff2") format("woff2"),
@@ -118,7 +131,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-700.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-700.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-800 - latin */
@@ -126,7 +140,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/raleway-v28-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-800.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-800.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-800.woff2") format("woff2"),
@@ -135,7 +150,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-800.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-800.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* raleway-900 - latin */
@@ -143,7 +159,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/raleway-v28-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/raleway-v28-latin-900.eot");
+  /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/raleway-v28-latin-900.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/raleway-v28-latin-900.woff2") format("woff2"),
@@ -152,7 +169,8 @@
     /* Modern Browsers */ url("../fonts/raleway-v28-latin-900.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/raleway-v28-latin-900.svg#Raleway")
-      format("svg"); /* Legacy iOS */
+      format("svg");
+  /* Legacy iOS */
 }
 
 /* Universal TextStyle */
@@ -194,6 +212,7 @@ body {
   color: #ffe600;
   text-decoration: underline;
 }
+
 /* End Header */
 
 /* Start Welcome */
@@ -203,6 +222,7 @@ body {
   background-size: cover;
   height: 90vh;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #welcome .cover {
@@ -261,13 +281,13 @@ body {
   padding-right: 30px;
   letter-spacing: 0.2rem;
 }
+
 /* End Welcome */
 
 /* Start Introduction */
 #introduction {
   width: 100vw;
   display: flex;
-  justify-content: end;
   align-items: center;
   flex-direction: column;
 }
@@ -284,23 +304,21 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 /* End Introduction */
 
 /* Start Services */
 #services {
-  background-color: #f4f4f4;
-}
-
-#services .detaills {
-  text-align: center;
+  width: 100vw;
   padding-top: 5vh;
-  padding-bottom: 25vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #f4f4f4;
+  text-align: center;
 }
 
-#services .detaills h1 {
+#services .summary h1 {
   text-transform: uppercase;
   padding-left: 40px;
   padding-right: 40px;
@@ -309,20 +327,20 @@ body {
   font-size: x-large;
 }
 
-#services .detaills h2 {
+#services .summary h2 {
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
 }
 
-#services .detaills p {
+#services .summary p {
   padding: 10px 30px;
 }
 
-#services .detaills .text {
+#services .summary .text {
   max-width: 750px;
 }
 
-#services .detaills .cardbox {
+#services .cardbox {
   margin-top: 5vh;
   display: flex;
   align-content: center;
@@ -330,9 +348,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
+  padding-bottom: 25vh;
 }
 
-#services .detaills .cardbox .card {
+#services .cardbox .card {
   width: 270px;
   height: 350px;
   background-color: white;
@@ -341,18 +360,18 @@ body {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-#services .detaills .cardbox .card .bi {
+#services .cardbox .card .bi {
   margin-top: 50px;
   font-size: 50px;
   margin-bottom: 15px;
 }
 
-#services .detaills .cardbox .card p {
+#services .cardbox .card p {
   margin-top: 25px;
   font-size: 0.8rem;
 }
 
-#services .summary {
+#services .kpis {
   padding-top: 10vh;
   padding-bottom: 10vh;
   background-color: black;
@@ -364,7 +383,7 @@ body {
   gap: 1rem;
 }
 
-#services .summary .card {
+#services .kpis .card {
   width: 270px;
   height: 70px;
   background-color: white;
@@ -373,28 +392,30 @@ body {
   border-radius: 0;
 }
 
-#services .summary .card h3 {
+#services .kpis .card h3 {
   margin-top: 8px;
   font-size: 1.2rem;
 }
 
-#services .summary .card p {
+#services .kpis .card p {
   text-transform: uppercase;
   padding-bottom: 8px;
   letter-spacing: 0.1rem;
 }
+
 /* End Services */
 
 /* Start Portfolio */
-#portfolio .detaills {
-  padding-top: 40px;
+#portfolio {
+  width: 100vw;
   text-align: center;
+  padding-top: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#portfolio .detaills h1 {
+#portfolio .summary h1 {
   text-transform: uppercase;
   padding-left: 40px;
   padding-right: 40px;
@@ -403,11 +424,11 @@ body {
   font-size: x-large;
 }
 
-#portfolio .detaills .text {
+#portfolio .summary .text {
   max-width: 750px;
 }
 
-#portfolio .detaills .categories {
+#portfolio .categories {
   padding-top: 10vh;
   padding-bottom: 10vh;
   display: flex;
@@ -418,7 +439,7 @@ body {
   gap: 1rem;
 }
 
-#portfolio .detaills p {
+#portfolio .summary p {
   padding: 10px 30px;
 }
 
@@ -426,21 +447,21 @@ body {
 [class*=" bi-"]::before {
   vertical-align: super;
 }
-#portfolio .detaills .categories .bi {
+
+#portfolio .categories .bi {
   padding-left: 40px;
   padding-right: 40px;
   font-size: 60px;
 }
-
 @media (max-width: 1130px) {
-  #portfolio .detaills .categories .bi {
+  #portfolio .categories .bi {
     padding-left: 0px;
     padding-right: 0px;
     font-size: 0px;
   }
 }
 
-#portfolio .detaills .categories .card {
+#portfolio .categories .card {
   width: 470px;
   height: 60px;
   border-radius: 0;
@@ -452,11 +473,11 @@ body {
   align-items: flex-end;
 }
 
-#portfolio .detaills .categories .card p {
+#portfolio .categories .card p {
   padding: 0px;
 }
 
-#portfolio .detaills .projects {
+#portfolio .projects {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -464,7 +485,7 @@ body {
   flex-wrap: wrap;
 }
 
-#portfolio .detaills .projects .card {
+#portfolio .projects .card {
   width: 310px;
   height: 350px;
   border: none;
@@ -474,31 +495,31 @@ body {
   border-radius: 0;
 }
 
-#portfolio .detaills .projects .a {
+#portfolio .projects .a {
   background-image: url("../img/portfolio-0.jpg");
 }
 
-#portfolio .detaills .projects .b {
+#portfolio .projects .b {
   background-image: url("../img/portfolio-1.jpg");
 }
 
-#portfolio .detaills .projects .c {
+#portfolio .projects .c {
   background-image: url("../img/portfolio-2.jpg");
 }
 
-#portfolio .detaills .projects .d {
+#portfolio .projects .d {
   background-image: url("../img/portfolio-3.jpg");
 }
 
-#portfolio .detaills .projects .e {
+#portfolio .projects .e {
   background-image: url("../img/portfolio-4.jpg");
 }
 
-#portfolio .detaills .projects .f {
+#portfolio .projects .f {
   background-image: url("../img/portfolio-5.jpg");
 }
 
-#portfolio .detaills .btn {
+#portfolio .btn {
   margin-top: 8vh;
   margin-bottom: 8vh;
   border-color: #ffe600;
@@ -512,6 +533,7 @@ body {
 }
 
 #portfolio .video {
+  width: 100vw;
   background-color: black;
   display: flex;
   align-content: center;
@@ -523,12 +545,13 @@ body {
   align-self: center;
   border-color: #ffe600;
   text-transform: uppercase;
-  color: #ffe600;
+  color: black;
   font-weight: bold;
   border-radius: 0;
   height: 75px;
   letter-spacing: 0.4rem;
 }
+
 /* End Portfolio */
 
 /* Start Team */
@@ -636,7 +659,6 @@ body {
   align-items: center;
   text-align: center;
 }
-
 @media (max-width: 1175px) {
   #team .ceo .column {
     flex-direction: column-reverse;
@@ -689,6 +711,7 @@ body {
 #team .ceo .column .quote .text-b p {
   text-align: end;
 }
+
 /* End Team */
 
 /* Start Footer */
@@ -710,6 +733,7 @@ footer .info {
   width: 370px;
 }
 
+/* Aligns Icon to baseline */
 [class*=" bi-"]::before {
   vertical-align: text-bottom;
 }
