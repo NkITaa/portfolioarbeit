@@ -309,7 +309,6 @@ body {
 
 /* Start Services */
 #services {
-  width: 100vw;
   padding-top: 5vh;
   display: flex;
   align-items: center;
@@ -372,6 +371,7 @@ body {
 }
 
 #services .kpis {
+  width: 100vw;
   padding-top: 10vh;
   padding-bottom: 10vh;
   background-color: black;
@@ -407,7 +407,6 @@ body {
 
 /* Start Portfolio */
 #portfolio {
-  width: 100vw;
   text-align: center;
   padding-top: 40px;
   display: flex;
@@ -444,8 +443,8 @@ body {
 }
 
 /* Aligns Icon to baseline of card */
-[class*=" bi-"]::before {
-  vertical-align: super;
+#portfolio [class*=" bi-"]::before {
+  vertical-align: top;
 }
 
 #portfolio .categories .bi {
@@ -734,7 +733,7 @@ footer .info {
 }
 
 /* Aligns Icon to baseline */
-[class*=" bi-"]::before {
+footer [class*=" bi-"]::before {
   vertical-align: text-bottom;
 }
 
