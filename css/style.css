@@ -297,6 +297,9 @@ body {
   text-align: center;
   padding-top: 5vh;
   padding-bottom: 25vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #services .detaills h1 {
@@ -387,7 +390,11 @@ body {
 
 /* Start Portfolio */
 #portfolio .detaills {
+  padding-top: 40px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #portfolio .detaills h1 {
@@ -400,8 +407,8 @@ body {
   font-weight: light;
 }
 
-#portfolio .detaills p {
-  padding: 10px 30px;
+#portfolio .detaills .text {
+  max-width: 750px;
 }
 
 #portfolio .detaills .categories {
@@ -415,12 +422,42 @@ body {
   gap: 1rem;
 }
 
+#portfolio .detaills p {
+  padding: 10px 30px;
+}
+
+/* Aligns Icon to baseline of card */
+[class*=" bi-"]::before {
+  vertical-align: super;
+}
+#portfolio .detaills .categories .bi {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 60px;
+}
+
+@media (max-width: 1130px) {
+  #portfolio .detaills .categories .bi {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 0px;
+  }
+}
+
 #portfolio .detaills .categories .card {
   width: 470px;
   height: 60px;
   border-radius: 0;
   border-left: transparent;
   border-right: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#portfolio .detaills .categories .card p {
+  padding: 0px;
 }
 
 #portfolio .detaills .projects {
