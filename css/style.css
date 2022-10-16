@@ -426,6 +426,10 @@ header ul li a:hover {
   max-width: 750px;
 }
 
+#portfolio .summary p {
+  padding: 10px 30px;
+}
+
 #portfolio .categories {
   padding-top: 10vh;
   padding-bottom: 10vh;
@@ -437,12 +441,8 @@ header ul li a:hover {
   gap: 1rem;
 }
 
-#portfolio .summary p {
-  padding: 10px 30px;
-}
-
 /* Aligns Icon to baseline of card */
-#portfolio [class*=" bi-"]::before {
+#portfolio .categories [class*=" bi-"]::before {
   vertical-align: top;
 }
 
@@ -491,6 +491,30 @@ header ul li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0;
+}
+
+#portfolio .projects .card.a {
+  background-image: url("../img/portfolio-0.jpg");
+}
+
+#portfolio .projects .card.b {
+  background-image: url("../img/portfolio-1.jpg");
+}
+
+#portfolio .projects .card.c {
+  background-image: url("../img/portfolio-2.jpg");
+}
+
+#portfolio .projects .card.d {
+  background-image: url("../img/portfolio-3.jpg");
+}
+
+#portfolio .projects .card.e {
+  background-image: url("../img/portfolio-4.jpg");
+}
+
+#portfolio .projects .card.f {
+  background-image: url("../img/portfolio-5.jpg");
 }
 
 #portfolio .projects .card button {
@@ -545,30 +569,6 @@ header ul li a:hover {
 #portfolio .projects .card .panel .content p {
   font-size: 0.8rem;
   margin: 10px;
-}
-
-#portfolio .projects .card.a {
-  background-image: url("../img/portfolio-0.jpg");
-}
-
-#portfolio .projects .card.b {
-  background-image: url("../img/portfolio-1.jpg");
-}
-
-#portfolio .projects .card.c {
-  background-image: url("../img/portfolio-2.jpg");
-}
-
-#portfolio .projects .card.d {
-  background-image: url("../img/portfolio-3.jpg");
-}
-
-#portfolio .projects .card.e {
-  background-image: url("../img/portfolio-4.jpg");
-}
-
-#portfolio .projects .card.f {
-  background-image: url("../img/portfolio-5.jpg");
 }
 
 #portfolio .btn {
@@ -654,19 +654,19 @@ header ul li a:hover {
   position: relative;
 }
 
-#team .employees .card .a {
+#team .employees .card .image.a {
   background-image: url("../img/team-1.jpg");
 }
 
-#team .employees .card .b {
+#team .employees .card .image.b {
   background-image: url("../img/team-2.jpg");
 }
 
-#team .employees .card .c {
+#team .employees .card .image.c {
   background-image: url("../img/team-3.jpg");
 }
 
-#team .employees .card .d {
+#team .employees .card .image.d {
   background-image: url("../img/team-4.jpg");
 }
 
@@ -728,30 +728,30 @@ header ul li a:hover {
   }
 }
 
-#team .ceo .column .a {
-  background-color: black;
-  padding: 60px 70px;
-}
-
-#team .ceo .column .a p {
-  color: white;
-  text-align: start;
-  font-size: 0.9rem;
-}
-
-#team .ceo .column .b {
-  background-image: url("../img/team-0.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
 #team .ceo .column .card {
   border: none;
   border-radius: 0;
   height: 375px;
   width: 570px;
+}
+
+#team .ceo .column .card.a {
+  background-color: black;
+  padding: 60px 70px;
+}
+
+#team .ceo .column .card.a p {
+  color: white;
+  text-align: start;
+  font-size: 0.9rem;
+}
+
+#team .ceo .column .card.b {
+  background-image: url("../img/team-0.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 #team .ceo .column .quote {
@@ -767,11 +767,11 @@ header ul li a:hover {
   font-style: italic;
 }
 
-#team .ceo .column .quote .text-a p {
+#team .ceo .column .quote .credit.a p {
   text-align: start;
 }
 
-#team .ceo .column .quote .text-b p {
+#team .ceo .column .quote .credit.b p {
   text-align: end;
 }
 
@@ -797,7 +797,7 @@ footer .info {
 }
 
 /* Aligns Icon to baseline */
-footer [class*=" bi-"]::before {
+footer .info [class*=" bi-"]::before {
   vertical-align: text-bottom;
 }
 
@@ -839,23 +839,23 @@ footer .info .btn {
   border-radius: 30px;
 }
 
-footer .row {
+footer .info.row {
   width: 370px;
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
 
-footer .row .column {
+footer .info.row .column {
   width: 175px;
 }
 
-footer .row .column ul:before {
+footer .info.row .column ul:before {
   content: attr(aria-label);
   font-size: 1rem;
 }
 
-footer .row .column ul li {
+footer .info.row .column ul li {
   margin-top: 10px;
   font-size: 0.83rem;
   list-style-type: none;
