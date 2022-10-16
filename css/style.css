@@ -351,6 +351,7 @@ header ul li a:hover {
 
 #services .cardbox .card {
   width: 270px;
+  max-width: 100vw;
   height: 350px;
   background-color: white;
   border: none;
@@ -384,6 +385,7 @@ header ul li a:hover {
 
 #services .kpis .card {
   width: 270px;
+  max-width: 100vw;
   height: 70px;
   background-color: white;
   text-align: center;
@@ -461,6 +463,7 @@ header ul li a:hover {
 
 #portfolio .categories .card {
   width: 470px;
+  max-width: 100vw;
   height: 60px;
   border-radius: 0;
   border-left: transparent;
@@ -485,6 +488,7 @@ header ul li a:hover {
 
 #portfolio .projects .card {
   width: 310px;
+  max-width: 100vw;
   height: 350px;
   border: none;
   position: relative;
@@ -634,6 +638,10 @@ header ul li a:hover {
   max-width: 750px;
 }
 
+#team .text p {
+  padding: 10px 30px;
+}
+
 #team .employees {
   margin-top: 6vh;
   display: flex;
@@ -649,6 +657,7 @@ header ul li a:hover {
   border: none;
   height: 520px;
   width: 270px;
+  max-width: 100vw;
 }
 
 #team .employees .card .image {
@@ -726,6 +735,7 @@ header ul li a:hover {
 
 #team .ceo .column {
   width: 570px;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -738,15 +748,22 @@ header ul li a:hover {
 }
 
 #team .ceo .column .card {
+  min-height: 375px;
   border: none;
   border-radius: 0;
-  height: 375px;
   width: 570px;
+  max-width: 100vw;
 }
 
 #team .ceo .column .card.a {
   background-color: black;
-  padding: 60px 70px;
+  direction: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#team .ceo .column .card.a p {
+  padding: 50px;
 }
 
 #team .ceo .column .card.a p {
@@ -756,6 +773,7 @@ header ul li a:hover {
 }
 
 #team .ceo .column .card.b {
+  height: 375px;
   background-image: url("../img/team-0.jpg");
   background-position: center;
   background-size: cover;
@@ -767,6 +785,7 @@ header ul li a:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 400px;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -803,8 +822,9 @@ footer {
 }
 
 footer .info {
-  height: 270px;
-  width: 370px;
+  width: 400px;
+  max-width: 100vw;
+  padding: 15px;
 }
 
 /* Aligns Icon to baseline */
@@ -822,7 +842,7 @@ footer .info .bi-droplet-half {
 }
 
 footer .info .text {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -851,7 +871,6 @@ footer .info .btn {
 }
 
 footer .info.row {
-  width: 370px;
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -859,16 +878,22 @@ footer .info.row {
 
 footer .info.row .column {
   width: 175px;
+  max-width: 100vw;
+  padding: 0px;
+}
+
+footer .info.row .column ul {
+  padding-left: 0px;
 }
 
 footer .info.row .column ul:before {
   content: attr(aria-label);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 footer .info.row .column ul li {
   margin-top: 10px;
-  font-size: 0.83rem;
+  font-size: 0.9rem;
   list-style-type: none;
 }
 
