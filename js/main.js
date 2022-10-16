@@ -1,3 +1,3 @@
-function test () {
-
+function toggleVisibility (button) {
+    button.classList.toggle("open")
 }

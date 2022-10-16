@@ -493,6 +493,18 @@ header ul li a:hover {
   border-radius: 0;
 }
 
+#portfolio .projects .card p {
+  transition: opacity ease-in-out 150ms;
+}
+
+#portfolio .projects .card:not(.open) p {
+  opacity: 0%;
+}
+
+#portfolio .projects .card.open p {
+  opacity: 100%;
+}
+
 #portfolio .projects .a {
   background-image: url("../img/portfolio-0.jpg");
 }
