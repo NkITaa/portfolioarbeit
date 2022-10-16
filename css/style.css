@@ -757,9 +757,6 @@ header ul li a:hover {
 
 #team .ceo .column .card.a {
   background-color: black;
-  direction: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #team .ceo .column .card.a p {
