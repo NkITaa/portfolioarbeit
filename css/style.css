@@ -309,7 +309,6 @@ body {
   padding-bottom: 10px;
   letter-spacing: 0.4rem;
   font-size: x-large;
-  font-weight: light;
 }
 
 #services .detaills h2 {
@@ -383,7 +382,7 @@ body {
 
 #services .summary .card p {
   text-transform: uppercase;
-  padding-bottom: 8;
+  padding-bottom: 8px;
   letter-spacing: 0.1rem;
 }
 /* End Services */
@@ -404,7 +403,6 @@ body {
   padding-bottom: 10px;
   letter-spacing: 0.4rem;
   font-size: x-large;
-  font-weight: light;
 }
 
 #portfolio .detaills .text {
@@ -552,7 +550,6 @@ body {
   padding-bottom: 10px;
   letter-spacing: 0.4rem;
   font-size: x-large;
-  font-weight: light;
 }
 
 #team .text {
