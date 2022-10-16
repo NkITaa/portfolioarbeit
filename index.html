@@ -178,8 +178,17 @@
         </div>
       </div>
       <!-- End Categories -->
-      <!-- Start Projects with six example projects in cards-->
+      <!-- 
+        Start Projects with six example projects in cards
+           Cards are structured like:
+           card-class: containts image & size, it contains:
+               - button: toggles the cards opacity
+               - panel: contains cards appearing info, consisting of: 
+                  - bar -> yellow bar 
+                  - content -> consisting of title with infotext 
+      -->
       <div class="projects">
+        <!-- Start: Card 1 -->
         <div class="card a">
           <button onclick="toggleVisibility(this)" aria-controls="panel-a" aria-label="toggle panel">
           </button>
@@ -193,6 +202,8 @@
             </div>
           </div>
         </div>
+        <!-- End: Card 1 -->
+        <!-- Start: Card 2 -->
         <div class="card b">
           <button onclick="toggleVisibility(this)" aria-controls="panel-b" aria-label="toggle panel">
           </button>
@@ -206,6 +217,8 @@
             </div>
           </div>
         </div>
+        <!-- End: Card 2 -->
+        <!-- Start: Card 3 -->
         <div class="card c">
           <button onclick="toggleVisibility(this)" aria-controls="panel-c" aria-label="toggle panel">
           </button>
@@ -219,6 +232,8 @@
             </div>
           </div>
         </div>
+        <!-- End: Card 3 -->
+        <!-- Start: Card 4 -->
         <div class="card d">
           <button onclick="toggleVisibility(this)" aria-controls="panel-d" aria-label="toggle panel">
           </button>
@@ -232,6 +247,8 @@
             </div>
           </div>
         </div>
+        <!-- End: Card 4 -->
+        <!-- Start: Card 5 -->
         <div class="card e">
           <button onclick="toggleVisibility(this)" aria-controls="panel-e" aria-label="toggle panel">
           </button>
@@ -245,6 +262,8 @@
             </div>
           </div>
         </div>
+        <!-- End: Card 5 -->
+        <!-- Start: Card 6 -->
         <div class="card f">
           <button onclick="toggleVisibility(this)" aria-controls="panel-f" aria-label="toggle panel">
           </button>
@@ -258,6 +277,7 @@
             </div>
           </div>
         </div>
+        <!-- End: Card 6 -->
       </div>
       <!-- End Projects -->
       <!-- Portfolio Button -->
