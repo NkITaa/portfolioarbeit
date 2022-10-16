@@ -531,7 +531,7 @@ header ul li a:hover {
 }
 
 #portfolio .projects .card button + .panel {
-  transition: opacity ease-in-out 200ms;
+  transition: opacity ease-in-out 400ms;
 }
 
 #portfolio .projects .card button:not(.open) + .panel {
