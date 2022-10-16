@@ -165,16 +165,14 @@ body {
   z-index: 10;
   display: flex;
   flex-direction: row;
-  align-content: baseline;
   justify-content: space-evenly;
-  position: fixed;
+  position: absolute;
   width: 100vw;
-  top: 0;
   margin-top: 20px;
 }
 
 #navigation .icon {
-  color: #ffe600;
+  color: white;
   font-size: 20px;
 }
 
@@ -188,12 +186,12 @@ body {
 }
 
 #navigation ul li a {
-  color: #ffe600;
+  color: white;
   text-decoration: none;
 }
 
 #navigation ul li a:hover {
-  color: white;
+  color: #ffe600;
   text-decoration: underline;
 }
 /* End Header */
