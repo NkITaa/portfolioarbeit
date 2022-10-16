@@ -180,12 +180,12 @@ body {
 
 /* Start Navigation */
 #navigation {
+  width: 100%;
   z-index: 10;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   position: absolute;
-  width: 100vw;
   margin-top: 20px;
 }
 
@@ -286,7 +286,6 @@ body {
 
 /* Start Introduction */
 #introduction {
-  width: 100vw;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -371,7 +370,7 @@ body {
 }
 
 #services .kpis {
-  width: 100vw;
+  width: 100%;
   padding-top: 10vh;
   padding-bottom: 10vh;
   background-color: black;
@@ -532,7 +531,7 @@ body {
 }
 
 #portfolio .video {
-  width: 100vw;
+  width: 100%;
   background-color: black;
   display: flex;
   align-content: center;
@@ -642,6 +641,8 @@ body {
 }
 
 #team .ceo {
+  width: 100%;
+  position: relative;
   margin-top: 10vh;
   display: flex;
   align-content: center;
@@ -649,6 +650,15 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+#team .ceo .bar {
+  height: 210px;
+  background-color: #ffe600;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 105px);
 }
 
 #team .ceo .column {
