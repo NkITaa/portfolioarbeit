@@ -698,6 +698,8 @@ body {
 
 /* Start Footer */
 footer {
+  padding-bottom: 5vh;
+  padding-top: 10vh;
   color: white;
   background-color: black;
   display: flex;
@@ -713,6 +715,48 @@ footer .info {
   width: 370px;
 }
 
+[class*=" bi-"]::before {
+  vertical-align: text-bottom;
+}
+
+footer .info .bi {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+footer .info .bi-droplet-half {
+  font-size: 4rem;
+}
+
+footer .info .text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer .info p {
+  font-size: 0.8rem;
+}
+
+footer .info span {
+  color: #ffe600;
+}
+
+footer .info h3 {
+  font-size: 1rem;
+}
+
+footer .info .btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 50px;
+  font-size: 0.8rem;
+  width: 100%;
+  background-color: #ffe600;
+  color: black;
+  border: none;
+  border-radius: 30px;
+}
+
 footer .row {
   width: 370px;
   display: flex;
@@ -721,16 +765,18 @@ footer .row {
 }
 
 footer .row .column {
-  width: 150px;
+  width: 175px;
 }
 
 footer .row .column ul:before {
   content: attr(aria-label);
-  font-size: 120%;
-  font-weight: bold;
+  font-size: 1rem;
 }
 
 footer .row .column ul li {
+  margin-top: 10px;
+  font-size: 0.83rem;
   list-style-type: none;
 }
+
 /* End Footer */
