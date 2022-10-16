@@ -191,7 +191,7 @@ header {
 
 header .icon {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 header ul {
@@ -277,9 +277,9 @@ header ul li a:hover {
   border: none;
   font-weight: bold;
   border-radius: 0;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px;
   letter-spacing: 0.2rem;
+  font-weight: 600;
 }
 
 /* End Welcome */
@@ -580,8 +580,10 @@ header ul li a:hover {
   color: black;
   font-weight: bold;
   border-radius: 0;
-  letter-spacing: 0.4rem;
-  height: 45px;
+  font-size: 0.8rem;
+  padding: 10px 30px;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
 }
 
 #portfolio .video {
@@ -596,12 +598,15 @@ header ul li a:hover {
 #portfolio .video .btn {
   align-self: center;
   border-color: #ffe600;
+  background-color: transparent;
   text-transform: uppercase;
-  color: black;
+  color: #ffe600;
   font-weight: bold;
   border-radius: 0;
   height: 75px;
   letter-spacing: 0.4rem;
+  font-weight: 200;
+  font-size: 1.5rem;
 }
 
 /* End Portfolio */
@@ -762,17 +767,19 @@ header ul li a:hover {
   flex-direction: column;
 }
 
-#team .ceo .column .quote .credit {
-  font-weight: bold;
+#team .ceo .column .quote .credit p {
   font-style: italic;
+  font-weight: 500;
 }
 
 #team .ceo .column .quote .credit.a p {
   text-align: start;
+  margin-left: 1em;
 }
 
 #team .ceo .column .quote .credit.b p {
   text-align: end;
+  margin-right: 1em;
 }
 
 /* End Team */
