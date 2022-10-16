@@ -557,6 +557,53 @@ body {
 #team .text {
   max-width: 750px;
 }
+
+#team .employees {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#team .employees .card {
+  height: 520px;
+  width: 270px;
+}
+
+#team .employees .card .image {
+  height: 350px;
+  border: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+
+#team .employees .card .a {
+  background-image: url("../img/team-1.jpg");
+}
+
+#team .employees .card .b {
+  background-image: url("../img/team-2.jpg");
+}
+
+#team .employees .card .c {
+  background-image: url("../img/team-3.jpg");
+}
+
+#team .employees .card .d {
+  background-image: url("../img/team-4.jpg");
+}
+
+#team .employees .card .image .name {
+  height: 60px;
+}
+
+#team .employees .card .description {
+  height: 170px;
+}
 /* End Team */
 
 /* Start Footer */
