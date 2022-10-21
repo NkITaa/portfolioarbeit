@@ -221,7 +221,6 @@ header ul li a:hover {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   padding-top: min(150px, 6vh);
-  padding-bottom: min(200px, 10vh);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -282,6 +281,17 @@ header ul li a:hover {
   padding: 10px 30px;
   letter-spacing: 0.2rem;
   font-weight: 600;
+}
+
+#welcome .bottom {
+  width: 100vw;
+  text-align: center;
+}
+
+#welcome .bottom .bi {
+  font-size: 25px;
+  color: white;
+  z-index: 10;
 }
 
 /* End Welcome */
@@ -457,8 +467,8 @@ header ul li a:hover {
 }
 @media (max-width: 1130px) {
   #portfolio .categories .bi {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
+    margin: 0px;
     font-size: 0px;
   }
 }
