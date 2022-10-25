@@ -284,7 +284,6 @@ header ul li a:hover {
 }
 
 #welcome .bottom {
-  width: 100vw;
   text-align: center;
 }
 
@@ -466,10 +465,12 @@ header ul li a:hover {
   font-size: 60px;
 }
 @media (max-width: 1130px) {
+  #portfolio .categories [class*=" bi-"]::before {
+    display: block;
+  }
   #portfolio .categories .bi {
-    padding: 0px;
-    margin: 0px;
-    font-size: 0px;
+    padding-left: calc((100vw - 60px) / 2);
+    padding-right: calc((100vw - 60px) / 2);
   }
 }
 
@@ -830,6 +831,11 @@ footer {
   flex-wrap: wrap;
   gap: 1rem;
 }
+@media (max-width: 791px) {
+  footer {
+    text-align: center;
+  }
+}
 
 footer .info {
   width: 400px;
@@ -885,6 +891,11 @@ footer .info.row {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+@media (max-width: 395px) {
+  footer .info.row {
+    justify-content: center;
+  }
 }
 
 footer .info.row .column {
